@@ -10,7 +10,8 @@ import Close from "../../images/closeIcon.png"
 import logo2 from "../../images/logo2.png"
 
 let socket;
-const ENDPOINT = "http://localhost:4500/";
+const ENDPOINT = 'https://hii-chat.herokuapp.com/' 
+const ENDPOINTDEVELOPMENT = "http://localhost:4500/";
 
 const Chat = ()=> {
     const [id, setid] = useState("")
