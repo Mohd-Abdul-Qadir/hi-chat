@@ -17,7 +17,7 @@ function App() {
       </Helmet>
       <Router>
         <Routes>
-          <Route exact path="/#" element={<Join />} />
+          <Route exact path="/" element={<Join />} />
 
           <Route path="/chat" element={<Chat />} />
         </Routes>
