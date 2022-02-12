@@ -1,0 +1,80 @@
+.chatPage{
+    background-image: url(../../images/bacground2.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+.header {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);   
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header>img{
+    filter: brightness(100) invert();
+    margin: 2.2vmax;
+    width: 50px;
+}
+.header>p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.header>a>img{
+    margin: 2.2vmax;
+    width: 20px;
+    cursor: pointer;
+    filter: brightness(100) invert();
+}
+
+.chatBox{
+    height: 70%;
+    box-sizing: border-box;
+
+}
+.inputBox{
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+    border: none;
+    background-color: #c7c8ca;
+
+}
+#chatInput{
+    width: 90%;
+    height: 10%;
+    border: none;
+    padding: 1.4vmax;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    outline: none;
+    font-size: 1vmax;
+
+}
+.sendBtn{
+    background-color: #c7c8ca;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.sendBtn>img{
+    transition: all 0.3s;
+    width: 28px;
+
+}
+
+.sendBtn:hover img{
+    transform: translateX(10px);
+}
